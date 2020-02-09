@@ -1,0 +1,427 @@
+ /* applying css reset code first */
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
+
+ body {
+     line-height: 1;
+ }
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ blockquote,
+ q {
+     quotes: none;
+ }
+
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
+
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+
+ /* 
+here are the properties for the css  */
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100%;
+     background-color: #F7F7FF;
+     align-content: center;
+
+ }
+
+ /* setting font for the css */
+ body {
+     font-family: 'Montserrat', sans-serif;
+     margin: auto;
+ }
+
+ .logo img {
+     height: 80px;
+     max-width: 500px;
+     margin: 30px;
+ }
+
+ div {
+     margin: 20px auto;
+ }
+
+ h1 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 85px;
+     font-weight: bold;
+     line-height: 6.5rem;
+ }
+
+ div p {
+     font-size: 1.6rem;
+     line-height: 2.2rem;
+     width: 80%;
+     margin: auto;
+ }
+
+ div img {
+     width: auto;
+     margin: 30px auto;
+ }
+
+ div img {
+     height: auto;
+     display: block;
+ }
+
+ /* setting up the contact form */
+ form {
+     padding: 25px;
+     background-color: #F7F7FF;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ input {
+     border-radius: 25px;
+     width: 100%;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ /* styling the button */
+ .button-main {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     font-size: 2rem;
+     color: #333131;
+ }
+
+ /* styling the form */
+ .contact-form {
+     font-family: 'Montserrat', sans-serif;
+     height: auto;
+     margin: 40px auto;
+     padding: 20px;
+     background-color: #ffffff;
+     border-radius: 26px;
+     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+ }
+
+ .contact-form h2 {
+     font-size: 2.8rem;
+     font-weight: 700;
+     margin-bottom: .75rem;
+ }
+
+ .button-main {
+     margin: 20px auto;
+     border-radius: 12px;
+     border: none;
+ }
+
+ .contact-form p {
+     font-size: 1rem;
+     line-height: 1.5rem;
+     margin-bottom: .8rem;
+     margin: auto 0px;
+ }
+
+
+ .class {
+     width: 100%;
+     height: 40px;
+     background-color: #F4F4F5;
+     border-radius: 4px;
+ }
+
+ .class {
+     padding-left: 11px;
+     margin: 6px 1px;
+ }
+
+ .class {
+     font-weight: 600;
+     border: none;
+ }
+
+ .button-main {
+     background-color: #57EEAB;
+     color: #ffffff;
+     padding: 10px 20px;
+ }
+
+ .contact-form {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+
+
+ form a {
+     color: #FF8480;
+     text-decoration: none;
+ }
+
+ footer {
+     background-color: #FFFD8C;
+     padding: 16px 34px 0 34px;
+     width: 100%;
+ }
+
+ footer {
+     background-color: #FFFD8C;
+     padding: 22px 0 22px 0;
+ }
+
+ /*Default styling for h3 elements*/
+ h3 {
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 22px;
+     width: 87%;
+     margin-bottom: 10px;
+ }
+
+ h3,
+ footer p,
+ input[value="CALCULATE"] {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ footer p {
+     font-size: 16px;
+     line-height: 19px;
+     margin-bottom: 10px;
+ }
+
+ /*Centering footer content*/
+ .footer-form {
+     width: 80%;
+     margin: auto;
+ }
+
+ /* grid for footer form input elements*/
+ .calculate-form {
+     display: grid;
+     grid-gap: 15px;
+     grid-template-columns: 72px 2fr;
+     margin-bottom: 31px;
+ }
+
+ /* footer form hours input*/
+ input[name="hours"] {
+     grid-column: 1 / 2;
+     display: block;
+     background-color: #F4F4F5;
+     border-radius: 11px;
+     padding: 11px 0 11px 11px;
+ }
+
+ /* fonts and colors of the footer */
+ input[value="CALCULATE"] {
+     background-color: #FF8480;
+     color: white;
+ }
+
+ /* footer form city input*/
+ input[name="city"] {
+     grid-column: 2 / 3;
+     display: block;
+     background-color: #F4F4F5;
+     border-radius: 11px;
+     padding: 11px 0 11px 11px;
+ }
+
+ /* footer form button input*/
+ input[value="CALCULATE"] {
+     grid-column: 1 / 3;
+     display: block;
+     border-radius: 20px;
+     font-weight: bold;
+     font-size: 24px;
+     padding: 5px 0 5px 0;
+ }
+
+ /* styling the logos for the footer */
+ .logo2 {
+     width: 70%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ /* first breakpoint tablet view */
+
+ @media (min-width: 670px) {
+     div .img {
+         max-width: 48%;
+     }
+
+     .wrapper-two {
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+     /* font styling of the button  */
+
+     footer {
+         display: flex;
+         flex-direction: column;
+     }
+
+     form.calculate-form {
+         font-family: 'Montserrat', sans-serif;
+         font-weight: bold;
+         font-size: 1.5rem;
+         max-width: 100%;
+         display: flex;
+         flex-direction: row;
+     }
+
+     /* setting id to give width to the area */
+
+     input#kalak {
+         width: 40%;
+         margin-right: 15px;
+     }
+
+     input#saher {
+         width: 70%;
+         margin-right: 15px;
+     }
+
+
+
+     form.calculate-form {
+         border-radius: 10px;
+         border: none;
+     }
+
+ }
+
+ /** - Desktop view **/
+ @media (min-width: 1000px) {
+     .wrapper {
+         margin: auto;
+         width: 95%;
+         display: flex;
+         flex-direction: row;
+
+     }
+
+ }
