@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <div class="top-header">
+      <div class="col-md-12" >
+        <div class="col-md-4 logo">
+          <h2 class="logo_head">JV PHOTOCON</h2>
+        </div>
+        <div class="col-md-8 search_div">
+          <input type="text" placeholder="SEARCH"  class="search">
+        </div>
+      
+    </div>
+    </div>
+    
+    
+
+<div class="header">  
+  <div class="header-center">
+    <ul class="abc">
+      <a class="" href="index.html">VEDEO</a>
+      <a class="" href="photo.html">PHOTO</a>
+      <a class="" href="audio.html">AUDIO</a>
+      <a class="" href="drone.html">DRONES</a>
+    </ul>
+   
+  </div>
+</div>
+<div >
+  <img src="image/photo.jpg" class="image">
+</div>
+<div class="category">
+  <center><h1>PHOTO</h1></center>
+  <center><span class="feature_category">FEATURED CATEGORIES</span></center><br>
+  <div class="container">
+    <div>
+      <img src="image/photo1.jpg" class="image1"><img src="image/photo2.jpg" class="image1">
+    </div>
+    <div class="information">
+      <center><span class="info_size">INFORMATION</span></center>
+       <center><p>Photography is the art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.</p></center>
+    </div>
+  </div>
+</div>
+<div class="footer">
+ <div class="footer-center">
+  <div class="dropup">
+    <a href="javascript:void(0)" class="dropbtn"><i class="fa fa-server"></i></a>
+    <div class="dropup-content">
+      <a href="index.html">VEDEO</a>
+      <a href="photo.html">PHOTO</a>
+      <a href="audio.html">AUDIO</a>
+      <a href="drone.html">DRONES</a>
+  </div>
+</div>
+    <a href="javascript:void(0)"><i class="fa fa-bell"></i></a>
+    <a href="javascript:void(0)"><i class="fa fa-minus-circle"></i></a>
+    <a href="javascript:void(0)"><i class="fa fa-user"></i></a>
+    <a href="javascript:void(0)"><i class="fa fa-cog"></i></a>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var url = window.location;
+    $('ul.abc a[href="'+ url +'"]').addClass('active');
+    $('ul.abc a').filter(function() {
+         return this.href == url;
+    }).addClass('active');
+});
+</script> 
